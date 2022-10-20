@@ -1,3 +1,4 @@
+''
 Problem link : https://leetcode.com/problems/divide-two-integers/
 
 Solution:
@@ -7,6 +8,7 @@ Knowing that any number can be represented in binary form, then we find the bigg
 Now we just need to check the bits in range of g.
 
 The time complexity is O(logN)
+''
 
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
